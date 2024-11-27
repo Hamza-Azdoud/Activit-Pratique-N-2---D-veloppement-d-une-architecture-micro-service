@@ -1,4 +1,4 @@
-package org.spring.ecomappiibdcc.entities;
+package org.spring.customerservice.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,7 +13,6 @@ import lombok.*;
 @Setter
 @Builder
 public class Customer {
-
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
