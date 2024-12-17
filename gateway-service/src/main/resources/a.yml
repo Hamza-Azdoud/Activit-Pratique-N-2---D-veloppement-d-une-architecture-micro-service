@@ -10,3 +10,7 @@ spring:
            uri: lb://INVENTORY-SERVICE
            predicates:
             Path= /api/products/**
+       discovery:
+         locator:
+           enabled: true
+           lower-case-service-id: true
